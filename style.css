@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.vorlage {
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.8;
+  left: 0;
+  top: 0;
+}
+
+/* Mobile */
+
+/* Desktop */
+@media screen and (min-width: 769px) {
+body {
+  display: grid;
+  place-items: center;
+  font-family: outfit;
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+}
+
+h1 {
+  color: white;
+  font-size: 1.8rem;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.text {
+  color: hsl(215, 51%, 70%);
+  font-size: 1.5rem;
+}
+
+.card {
+  padding: 35px;
+  background-color: hsl(215, 32%, 27%);
+  width: 400px;
+  height: 750px;
+  margin-top: 10.5%;
+  margin-bottom: 10.5%;
+  border-radius: 4%;
+}
+
+.pic {
+  width: 400px;
+  height: 400px;
+}
+
+hr {
+  color: hsl(215, 51%, 70%);
+}
+
+#daten1 {
+  color: hsl(178, 100%, 50%);
+  padding-top: 40px;
+  font-size: 1.5rem;
+  padding-left: 2.8px;
+}
+
+#daten2 {
+  color: hsl(215, 51%, 70%);
+  font-size: 1.4rem;
+  text-align: end;
+}
+
+.end {
+  font-size: 1.35rem;
+  color:hsl(215, 51%, 70%);
+}
+
+#name{
+  color: white;
+}
+.avatar {
+  height: 40px;
+  margin-top: 20px;
+  border: solid;
+  border-color: white;
+  border-radius: 50%;
+  margin-right: 18px;
+}
+}
